@@ -14,22 +14,23 @@ The game challenges players' reaction times and coordination. As the ball progre
 # The full intended feature set
 Core Gameplay
 - A ball that moves forward automatically.
-- A continuously scrolling track that creates the illusion of movement.
-- Left and right keyboard controls for steering the ball.
+- A continuously scrolling track that creates the sense of movement.
+- Left and right keyboard controls for shifting the ball.
+- Up arrow controls the jumping of ball.
 - Obstacles that the player must avoid.
 - Gaps in the track that cause the player to fall.
 - Collision detection that ends the game when the ball hits an obstacle or falls into a gap.
-- A restart option after losing.
+- A score and restart option after losing.
 
 Obstacles and Challenges
-- Static barriers: Blocks positioned on the track that the player must steer around.
-- Gaps: Missing sections of the track that the player must avoid.
+- Static obstacles: Blocks positioned on the track that the player must steer around.
+- Gaps: Missing sections of the track that the player must jump or steer to avoid falling. 
 - Moving obstacles: Blocks that move left and right, requiring the player to time their movements.
 - Increasing difficulty: Obstacles appear more frequently or the scrolling speed increases as the player progresses.
 - Scoring and Progress
-- A score based on the player's survival time or distance traveled.
+- A score based on the player's distance traveled.
 - Collectible diamonds that increase the player's score.
-- A progress indicator showing how close the player is to completing the level.
+- A progress indicator at top showing how close the player is to completing the level.
 - A finish line that the player must reach to win.
 
 Visual Design
